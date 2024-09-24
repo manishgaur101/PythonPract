@@ -1,0 +1,8 @@
+n = 123
+print("Given Number is:",n);
+reversed_number = str(n)[::-1]; #converted into string and reversed
+
+# converting string to int
+num =  int(reversed_number);
+
+print("Reverse number is:",num)
