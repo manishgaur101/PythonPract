@@ -1,0 +1,10 @@
+#Variable can not be bound to one type only.
+x = 10
+x = "mahi"
+
+print(x) 
+
+#If want to define the type for variable use Casting
+x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0

@@ -1,0 +1,15 @@
+import platform
+import sys
+
+''' Unlike java we need to import default modules also to avoid conflict.
+Python does provide a set of built-in functions (print, len, int, etc.) that are always available without import.
+These are part of Python's global namespace and are the closest equivalent to Java's default imports.
+'''
+# Both sys and platform are default modules and are cross platform means will work on all OS
+
+print("Python Version using sys module:")
+print(sys.version)
+
+print("Python Version using platform module:")
+print(platform.python_version())
+#print(platform.python_version_tuple())

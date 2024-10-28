@@ -1,0 +1,10 @@
+print("Hello")
+
+
+
+
+# to create blank line, need to use print() or \n 
+print()  # This will create a blank line
+print("User\n") 
+print("Good Evening")
+

@@ -1,0 +1,2 @@
+name = "Manish"
+print(name) #printing example for String value

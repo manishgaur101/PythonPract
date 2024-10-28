@@ -1,0 +1,4 @@
+num =  390
+print(type(num));
+s = str(num);
+print(type(s));

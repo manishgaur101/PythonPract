@@ -1,0 +1,4 @@
+x = 10
+print(x) # This will be printed coz it's not compiled lang.
+
+name = John
