@@ -1,0 +1,44 @@
+# Global Variables - Variables that are created outside of a function
+# Global variables can be used by everyone, both inside of functions and outside.
+
+x = "awesome"
+
+def myfun():
+    print("Python is "+x) # Global variable will be called.
+
+myfun()
+
+'''
+If you create a variable with the same name inside a function, this variable will be local, and can only be used inside the function. 
+The global variable with the same name will remain as it was, global and with the original value.
+'''
+
+def myfun2():
+    x = "fantastic" # Local variable, can only be called within this function.
+    print("Python is " +x) # local variable will be called.
+
+myfun2()
+
+print("I am " +x) # Global variable will be called.
+
+'''
+Global keyword is used to create a global variable inside a function.
+and when we want to change the global variable value inside function.
+'''
+def myfunc2():
+  global z
+  z = "BOOM"
+
+myfunc2()
+
+print("Python is " + z)
+
+x = "awesome"
+
+def myfunc3():
+  global x
+  x = "GOD"
+
+myfunc3()
+
+print("Python is " + x)

@@ -1,0 +1,14 @@
+# Upper case
+a = "hello"
+print(a.upper())
+
+# lower case
+print(a.lower())
+
+# Remove whitespace - Whitespace is the space before and/or after the actual text
+a = " Hello, World! "
+print(a.strip()) # returns "Hello, World!" but it will not remove the whitespace from actual String until reassigned.
+print(a)
+
+# Replace String
+print(a.replace("H","J"))

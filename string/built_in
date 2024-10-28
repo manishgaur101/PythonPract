@@ -1,0 +1,103 @@
+'''
+All string methods returns new values. They do not change the original string.
+'''
+# count() - Return the number of times the string appears in the string.
+
+txt = "I love apples, apple are my favorite fruit1" 
+#txt1 = "Iloveapples"
+x = txt.count("apple")
+
+print(x)
+
+# endswith() - returns True if the string ends with the specified value, otherwise False.
+x = txt.endswith("my world.")
+
+print(x)
+
+# isalnum() - Check if all the characters in the text are alphanumeric, meaning alphabet letter (a-z) and numbers (0-9).
+print(txt.isalnum()) # return false coz other than (a-z) and (0-9) number present in String ie. - , and space
+
+# isalpha() - returns True if all the characters are alphabet letters (a-z)
+txt = "CompanyX"
+
+x = txt.isalpha()
+
+print(x)
+
+# isdecimal() - returns True if all the characters are decimals (0-9)
+print("---------isdecimal()-----------------")
+txt = "1234" #Check if all the characters in a string are decimals (0-9)
+
+x = txt.isdecimal()
+
+print(x)
+
+# isdigit() - returns True if all the characters are digits, otherwise False.
+print("---------isdigit()-----------------")
+txt = "50800"
+
+x = txt.isdigit()
+
+print(x)
+
+# isnumeric() - returns True if all the characters are numeric (0-9), otherwise False.
+print("---------isnumeric()-----------------")
+txt = "-1" # all values should be numeric but -1 or any decimal value are not.
+
+x = txt.isnumeric()
+
+print(x)
+#find() - method finds the first occurrence of the specified value,returns -1 if the value is not found.
+txt = "Hello, welcome to my world."
+
+x = txt.find("welcome")
+
+print(x)
+
+#index() - same as find(), the only diff is this method raises an exception if the value is not found
+
+# title()  - returns a string where the first character in every word is upper case.
+print("---------title()-----------------")
+txt = "Welcome to my world"
+
+x = txt.title()
+
+print(x)
+
+# startswith()	Returns true if the string starts with the specified value
+
+# rsplit()	Splits the string at the specified separator, and returns a list
+# rstrip()	Returns a right trim version of the string
+# split()	Splits the string at the specified separator, and returns a list
+
+# join()	 takes all items in an iterable and joins them into one string.
+print("---------join()-----------------")
+myTuple = ("John", "Peter", "Vicky")
+
+x = "#".join(myTuple)
+
+print(x)
+
+# Join all items in a dictionary into a string
+myDict = {"name": "Manish", "country": "Norway"}
+mySeparator = "TEST"
+
+x = mySeparator.join(myDict) # key will be considered only.
+
+print(x)
+
+# lstrip() - removes any leading characters (space is the default leading character to remove)
+txt = ",,,,,ssaaww.....banana"
+
+x = txt.lstrip(",.asw") # all the occurances of these chars will be removed.
+
+print(x)
+
+# rstrip()	removes any trailing characters (characters at the end a string), space is the default trailing character to remove.
+txt = "     banana     "
+
+x = txt.rstrip()
+
+print("of all fruits", x, "is my favorite")
+
+

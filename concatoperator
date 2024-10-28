@@ -1,0 +1,3 @@
+x = 32
+y = "manish"
+print(x+y) #combine a string and a number with the + operator, Python will give you an error

@@ -1,0 +1,5 @@
+a = "PythonAdvanced"
+print(a)
+
+print(a.replace("Python","Python3")) #It will not change the actual String just return the modified string.
+print(a)

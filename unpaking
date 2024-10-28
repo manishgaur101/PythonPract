@@ -1,0 +1,23 @@
+# If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. # This is called unpacking.
+
+# Example - Unpack a List
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+# Unpacking a Tuple
+
+'''
+Need to see this - The number of variables must match the number of values in the tuple, if not, you must use an asterisk to collect the remaining values as a list.
+'''
+
+fruits = ("apple", "banana", "cherry")
+
+(green, yellow, red) = fruits
+
+print(green)
+print(yellow)
+print(red)

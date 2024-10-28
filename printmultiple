@@ -1,0 +1,5 @@
+x = "Manish"
+y = "is"
+z = 32
+a = "years old"
+print(x,y,z,a)
