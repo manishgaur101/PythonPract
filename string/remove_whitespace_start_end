@@ -1,0 +1,4 @@
+s = "   A     u t o mat   i o n      "
+print("Given String: "+ s)
+
+print(s.strip()) # in between space will not be removed.

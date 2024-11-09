@@ -1,0 +1,3 @@
+s = "Manish Gaur"
+print("Given String: "+ s)
+print(s[::-1])

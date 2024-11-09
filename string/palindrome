@@ -1,0 +1,7 @@
+s = "MoM"
+
+#Using method reverse()
+if(s==s[::-1]):
+    print(f"{s} is Palindrome.")
+else:
+    print(f"{s} is not a Palindrome.")    

@@ -1,0 +1,6 @@
+import re
+
+s  = "   A u t    oma       t   i o   "
+print("Given String: "+ s)
+
+print(re.sub(r"\s","",s)) # re module to use regular expressions in python

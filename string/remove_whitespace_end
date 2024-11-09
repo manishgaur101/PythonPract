@@ -1,0 +1,4 @@
+s = "   A     u t o mat   i o n      "
+print("Given String: "+ s)
+
+print(s.rstrip()) # only ending space will be removed
