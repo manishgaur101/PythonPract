@@ -1,0 +1,7 @@
+import re
+
+s = "#5tmani*&("
+print(s)
+
+# Removing special chars from String
+print(re.sub("\W","",s))

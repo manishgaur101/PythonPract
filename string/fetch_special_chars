@@ -1,0 +1,7 @@
+import re
+
+s = "#5tmani*&("
+print(s)
+
+# Printing all the special chars
+print(re.sub('\w','',s))

@@ -1,3 +1,9 @@
 s = "Manish Gaur"
 print("Given String: "+ s)
-print(s[::-1])
+print(s[::-1]) # Reversing using String slicing
+
+# Reversing using loop
+reverse_s =  "";
+for char in s:
+    reverse_s = char + reverse_s; # Adding each character at the begining of the new String
+print(reverse_s)
