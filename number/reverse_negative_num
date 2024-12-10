@@ -1,0 +1,3 @@
+num =  -1234
+reverse_positive_num =  int(str(abs(num))[::-1])
+print(reverse_positive_num)

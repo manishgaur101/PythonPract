@@ -1,0 +1,3 @@
+i = 17.4
+print(i)
+print(int(i))

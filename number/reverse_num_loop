@@ -1,0 +1,9 @@
+num = 1234
+c =  0
+while(num > 0):
+    digit = num % 10 # fetching the last digit
+    c = c * 10 + digit 
+
+    # Using // givest int result while / is used for float division result.
+    num = num // 10 #Removing last digit from the number, we can use / also but then we need to convert float to int
+print(c)    

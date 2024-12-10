@@ -1,0 +1,14 @@
+lst = ['a','z','d','c']
+print(lst)
+seen = set()
+duplicates = set()
+for i in lst:
+    if i in seen:
+        duplicates.add(i)
+    else: 
+        seen.add(i)    
+
+print(seen)
+print(duplicates)
+
+

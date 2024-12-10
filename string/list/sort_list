@@ -1,0 +1,33 @@
+lst = [5,3,1,6,3,6,2]
+print(f"Given List:{lst}")
+
+# Sorting in ascending order - In Place
+lst.sort()
+print(lst.sort()) # It returns None
+print(lst)
+
+# Sorting in descending order - In Place
+lst.sort(reverse=True)
+print(lst)
+
+# Sorting in ascending order - Return a new list
+asc_sorted_lst = sorted(lst)
+print(asc_sorted_lst)
+
+# Sorting in descending order - Return a new List
+desc_sorted_lst = sorted(lst,reverse=True)
+print(desc_sorted_lst)
+
+# Sorting with a Custom Key
+words = ["apple","dog","cat","elephant"]
+words.sort(key=len) # Sort the array elements based on length
+print(words)
+
+# Sort String words based on word length
+s = "My Name is Manish Gaur"
+s_lst = s.split()
+print(s_lst)
+s_lst.sort(key=len)
+print(s_lst)
+
+# Sorting Complex Data

@@ -1,4 +1,4 @@
 s = "   A     u t o mat   i o n      "
 print("Given String: "+ s)
 
-print(s.lstripstrip()) # Only front space will be removed.
+print(s.lstrip()) # Only front space will be removed.
